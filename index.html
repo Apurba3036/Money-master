@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+
+    <!-- bootsrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <nav class="navbar bg-dark" data-bs-theme="dark">
+
+        <img id="nav-img"src="" alt="">
+        <!-- Navbar content -->
+        <h1 id="head">Money Master</h1>
+      </nav>
+    
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6">
+             <div class="half-width" style="background-color: rgb(240, 245, 248);" >
+                <img class="img"src="https://img5.goodfon.com/wallpaper/nbig/5/e1/calculator-money-dollars-bitcoin.jpg" alt="">
+             </div>
+            
+
+            </div>
+            <div class="col-md-6">
+             <div class="half-width">
+             <h3>Calculate Your Income</h3>
+
+             <label for="" class="col-sm-2 col-form-label">Income :</label>
+             <div class="input">
+               <input id="income" type="Number" class="form-control" id="inputPassword"value="0" min="0">
+             </div><br>
+
+             <h3>Your Expenses</h3>
+
+
+
+             <div class="input-group mb-3 input">
+                <span class="input-group-text">Food:</span>
+                <input id="food" type="Number" class="form-control" value="0" min="0">
+              </div>
+             <div class="input-group mb-3 input">
+                <span class="input-group-text">Rent:</span>
+                <input id="rent" type="Number" class="form-control"value="0" min="0">
+              </div>
+             <div class="input-group mb-3 input">
+                <span class="input-group-text">Clothes:</span>
+                <input id="clothes" type="Number" class="form-control"value="0" min="0">
+              </div>
+
+              <div>
+                <input id="calculate" class="btn btn-primary" type="submit" value="Calculate">
+              </div><br><br>
+               
+              <h3>Total Expenses : <span id="expenses-total">0</span>Tk</h3><br>
+              <h3>Balance: <span id="Balance-total">0</span>Tk</h3>
+
+              <div class="d-flex justify-content-center mt-5">
+                <div style="padding: 10px;">
+                    <span style="font-size: 18px;" class="">Save:</span>
+                </div>
+                <div>
+
+                    <input id="save" type="Number" class="form-control input-saving"value="0" min="0">
+                </div>
+               
+                <div style="padding:10px">
+                    <span style="font-weight: 600;" >%</span>
+                </div>
+
+                <div>
+                    <input id="save-btn" class="btn btn-primary" type="submit" value="Save">
+                  </div>
+
+
+             </div><br><br>
+
+
+             <h3>Saving Amount :<span id="saving">0</span>Tk</h3>
+             <h3>Remaining Amount: <span id="remain">0</span> Tk </h3>
+
+              </div>
+
+
+
+
+             </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <br><br>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+    <!-- js file link -->
+    <script src="/main.js"></script>
+
+</body>
+</html>
